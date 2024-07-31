@@ -1,0 +1,118 @@
+.experience-sec{
+    margin-top: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246, 246, 246);
+}
+.exp-head{
+    
+    padding: 30px;
+    width: 42%;
+    margin-left: 60vh;
+    text-align: center;
+}
+.exp-head1{
+    font-size: 32px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.exp-para{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: #6c757d;
+    font-weight: 300;
+    font-family: "Mukta Mahee", sans-serif;
+}
+.exp-grid{
+    display: grid;
+    grid-template-columns: 50vh 50vh 50vh;
+    grid-template-rows: 35vh 35vh;
+    padding-left: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.food-pic>img{
+    width: 140px;
+    height: 60px;
+    margin-left: 16vh;
+    margin-top: 20px;
+}
+.food-head>h3{
+    
+    font-size: 28px;
+    font-family: "Abril Fatface", serif;
+    margin-top: 20px;
+    text-align: center;
+}
+.food-para>p{
+    
+    width: 80%;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+@media screen and (max-width: 480px){
+    .experience-sec{
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .exp-head{
+       
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 35vh;
+    }
+    .exp-head1{
+        font-size: 28px;
+    }
+    .exp-para{
+        font-size: 18px;
+        text-align:center;
+    }
+    .exp-grid{
+        display: flex;
+        flex-wrap:wrap;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .experience-sec{
+        
+        
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .exp-head{
+       
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 35vh;
+    }
+    .exp-head1{
+        font-size: 28px;
+    }
+    .exp-para{
+        font-size: 18px;
+        text-align:center;
+    }
+    .exp-grid{
+        display: flex;
+        flex-wrap:wrap;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

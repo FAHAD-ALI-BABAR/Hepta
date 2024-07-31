@@ -1,0 +1,464 @@
+
+    /* position: relative;
+    
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    min-height: 700px;
+    width: 100%; */
+
+
+/* .hero-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    z-index: 1;
+}
+
+.contact-name{
+    font-size: 90px;
+}
+.text {
+    position: relative;
+    z-index: 2;
+}
+
+.logo-name {
+    color: #fff;
+    font-size: 37px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 140vh;
+    padding: 50px;
+    cursor: pointer;
+    
+}
+
+.hero-heading {
+    color: white;
+    width: 30%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: 8%;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+}
+
+.hero-para {
+    font-size: 29px;
+    width: 40%;
+    margin-left: 27%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.hero-span {
+    border: 1px solid grey;
+    padding: 10px 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: grey;
+    cursor: pointer;
+}
+
+.hero-span:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.hero-btn {
+    padding: 20px;
+    width: 15%;
+    margin-left: 40%;
+}
+
+.hero-btn>button {
+    padding: 16px 30px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Mukta Mahee", sans-serif;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    letter-spacing: .2em;
+    color: white;
+    margin-top: 30px;
+}
+
+.hero-btn>button:hover {
+    color: white;
+    background-color: white;
+    transition: 0.3s all ease;
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .logo-name{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    gap: 20vh;
+    padding: 10px;
+    cursor: pointer;
+    }
+    .contact-name{
+        font-size: 87px;
+    }
+    .hero-heading{
+    
+    color: white;
+    width: 90%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-top: 40%;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    }
+    .hero-para{
+    font-size: 17px;
+    width: 90%;
+    margin-left: 7%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+    }
+    .hero-btn{
+    padding: 20px;
+    width: 80%;
+    margin-left: 15%;
+    }
+    .hero-btn>button {
+        width: 90%;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: "Mukta Mahee", sans-serif;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 4px;
+        letter-spacing: .2em;
+        color: white;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:480px) {
+    .logo-name{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    gap: 20vh;
+    padding: 10px;
+    cursor: pointer;
+    }
+    .contact-name{
+        font-size: 57px;
+    }
+    
+    .hero-heading{
+    
+    color: white;
+    width: 90%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 8%;
+    margin-top: 40%;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+    }
+    .hero-para{
+    font-size: 27px;
+    width: 90%;
+    margin-left: 7%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+    }
+    .hero-btn{
+    padding: 20px;
+    width: 80%;
+    margin-left: 15%;
+    }
+    .hero-btn>button {
+        width: 90%;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: "Mukta Mahee", sans-serif;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 4px;
+        letter-spacing: .2em;
+        color: white;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+        
+      }
+      .form-group div {
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+        
+      }
+      .accordian-pic form {
+        
+        border: 5px solid red;
+        margin-top: 0px;
+        width: 90%;
+        height: 40vh;
+        margin-left: 20px;
+      }
+      .accordian-txt h2,
+      .accordian-txt h4 {
+        width: 100%;
+        font-size: 16px;
+      }
+      .accordian-txt h2.accordian-heading {
+        font-size: 20px;
+      }
+      .accordian-txt h4 {
+        font-size: 14px;
+      }
+      button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+      }
+      
+} */
+ /* General styles */
+/* .hero-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    
+  }
+  .hero-heading{
+   
+    margin-right: 70vh;
+    
+  }
+  
+  .hero-heading h2 {
+    font-size: 4rem;
+    
+  }
+  .hero-para{
+    margin-right: 60vh;
+  }
+  
+  
+  .hero-para p {
+    font-size: 2.0rem;
+  }
+  .hero-btn{
+    margin-right: 90vh;
+  }
+  
+  .hero-btn button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-btn button:hover {
+    background-color: #e5533c;
+  }
+  
+  
+ 
+  
+  @media (max-width: 768px) {
+    .hero-header {
+      padding: 10px;
+    }
+  
+    .hero-heading h2 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-para p {
+      font-size: 1rem;
+    }
+  
+    .hero-btn button {
+      padding: 6px 12px;
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-heading{
+        margin-left: 30vh;
+    }
+    .hero-heading h2 {
+      font-size: 2rem;
+      
+      width: 80%;
+      margin-left: 35vh;
+    }
+  
+    .hero-para p {
+      font-size: 1.0rem;
+      
+      margin-left: 27vh;
+      width: 100%;
+
+    }
+  
+    .hero-btn button {
+      
+      font-size: 0.625rem;
+      
+      margin-left: 41vh;
+    }
+  }
+  
+ */
+ .hero-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  min-height: 700px;
+  width: 100%;
+  background-image: url('/tour2.webp'); /* Update path as necessary */
+}
+
+
+
+.text h2 {
+  font-size: 80px;
+}
+
+.hero-para {
+  margin-right: 60vh;
+
+}
+
+.text p {
+  font-size: 2.0rem;
+}
+
+.hero-btn {
+  margin-right: 90vh;
+}
+
+.text button {
+    padding: 16px 30px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Mukta Mahee", sans-serif;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    letter-spacing: .2em;
+    color: white;
+    margin-top: 30px;
+    margin-left: 35%;
+}
+
+.text button:hover {
+   
+    color: white;
+    background-color: white;
+    transition: 0.3s all ease;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .hero-header {
+      padding: 10px;
+  }
+
+  .hero-heading h2 {
+      font-size: 8.5rem;
+  }
+
+  .hero-para p {
+      font-size: 1rem;
+  }
+
+  .text button {
+      padding: 6px 12px;
+      font-size: 0.75rem;
+     
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 8px;
+      padding-right: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-heading {
+      margin-left: 30vh;
+  }
+
+   .text h2 {
+      font-size: 2.5rem;
+      width: 100%;
+      
+  }
+
+  .text p {
+      font-size: 1.5rem;
+     
+  }
+
+  .text button {
+    padding: 16px 30px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Mukta Mahee", sans-serif;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    letter-spacing: .2em;
+    color: white;
+    margin-top: 30px;
+}
+.text button:hover {
+   
+  color: white;
+  background-color: white;
+  transition: 0.3s all ease;
+  color: black;
+  cursor: pointer;
+}
+}

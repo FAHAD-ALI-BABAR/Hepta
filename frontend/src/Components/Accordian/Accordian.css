@@ -1,0 +1,382 @@
+/* .accordian-sec{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.accordian-pic{
+    width: 29%;
+    margin-top: 70px;
+}
+.accordian-pic>img{
+    width:60vh;
+    height:70vh;
+
+}
+
+.accordian-txt{
+    height: 100%;    width: 30%;
+    margin-top: 200px;
+}
+.accordian-btn{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+.accordian-heading{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+.accordian-para{
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #6c757d;
+}
+.paragraph{
+    margin-top: 20px;
+}
+.media-icon{
+    border: 2px solid #e6e6e6;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+    width: 10%;
+    margin: 3px;
+    border-radius: 50%;
+    color: #65c0ba;
+}
+.icon-txt{
+    padding: 15px;
+    margin-bottom: 5px;
+    width: 40%;
+    color: #65c0ba;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .1em;
+}
+.media-icon:hover{
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+.icon-txt>p:hover{
+    color: #17a2b8;
+    cursor: pointer;
+} */
+
+/* .accordian-sec {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.accordian-pic {
+    width: 29%;
+    margin-top: 70px;
+}
+
+.accordian-pic > img {
+    width: 100%;
+    height: auto;
+}
+
+.accordian-txt {
+    height: 100%;
+    width: 30%;
+    margin-top: 60px;
+}
+
+.accordian-btn {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.accordian-heading {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+
+.accordian-para {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #6c757d;
+    
+}
+
+.paragraph {
+    margin-top: 20px;
+}
+
+.media-icon {
+    border: 2px solid #e6e6e6;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+    width: 10%;
+    margin: 3px;
+    border-radius: 50%;
+    color: #65c0ba;
+}
+
+.icon-txt {
+    padding: 15px;
+    margin-bottom: 5px;
+    width: 40%;
+    color: #65c0ba;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .1em;
+}
+
+.media-icon:hover {
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.icon-txt > p:hover {
+    color: #17a2b8;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+/* @media (max-width: 768px) {
+    .accordian-sec {
+        height: auto;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 30px;
+        
+    }
+
+    .accordian-pic, .accordian-txt {
+        width: 100%;
+        margin-top: 0;
+        
+    }
+
+    .accordian-pic > img {
+        width: 100%;
+        height: 20%;
+       
+    }
+
+    .accordian-txt {
+        margin-top: 20px;
+        
+    }
+
+    .accordian-heading {
+        font-size: 24px;
+        
+       
+    }
+
+    .accordian-para {
+        font-size: 14px;
+        
+    }
+
+    .icon-txt {
+        width: 100%;
+        text-align: center;
+    }
+}  */
+
+.accordian-sec {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    overflow: hidden;
+    
+}
+
+.accordian-pic {
+    width: 29%;
+    margin-top: 30px;
+}
+
+.accordian-pic > img {
+    width: 100%;
+    height: auto;
+}
+
+.accordian-txt {
+    height: 100%;
+    width: 30%;
+    margin-top: 60px;
+}
+
+.accordian-btn {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.accordian-heading {
+    padding: 20px 0;
+    font-size: 32px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+
+.accordian-para {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #6c757d;
+}
+
+.paragraph {
+    margin-top: 20px;
+}
+
+.media-icon {
+    border: 2px solid #e6e6e6;
+    padding: 15px 19px;
+    width: 10%;
+    margin: 3px;
+    border-radius: 50%;
+    color: #65c0ba;
+}
+
+.icon-txt {
+    padding: 15px;
+    margin-bottom: 5px;
+    width: 40%;
+    color: #65c0ba;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .1em;
+}
+
+.media-icon:hover {
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.icon-txt > p:hover {
+    color: #17a2b8;
+    cursor: pointer;
+}
+.icon-txt button{
+    padding: 12px;
+    margin-bottom: 5px;
+    width: 80%;
+    color: #65c0ba;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #65c0ba;
+    
+
+}
+.icon-txt button:hover{
+    color: white;
+    background-color: #65c0ba;
+    border: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .accordian-sec {
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+        
+    }
+
+    .accordian-pic {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        
+    }
+
+    .accordian-pic > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .accordian-txt {
+        width: 100%;
+        margin-top: 0px;
+        
+    }
+
+    .accordian-heading {
+        font-size: 24px;
+        text-align: center;
+        
+    }
+
+    .accordian-para {
+        font-size: 14px;
+        
+        text-align: center;
+    }
+
+    .icon-txt {
+        width: 100%;
+        text-align: center;
+       
+    }
+    .media-icon{
+    border: 2px solid #e6e6e6;
+    padding: 15px 19px;
+    width: 13%;
+    margin: 3px;
+    margin-left: 5%;
+    border-radius: 50%;
+    color: #65c0ba;}
+    .media-icon:hover {
+        border: 2px solid black;
+        color: black;
+        cursor: pointer;
+        transition: .3s all ease;
+    }
+    .icon-txt button{
+        padding: 5px;
+        margin-bottom: 5px;
+        width: 40%;
+        color: #65c0ba;
+        font-weight: 500;
+        font-size: 14px;
+        background-color: white;
+        border: 1px solid #65c0ba;
+        margin-left: 25%;
+        
+    
+    }
+}

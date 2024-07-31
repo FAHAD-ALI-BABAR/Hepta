@@ -1,0 +1,184 @@
+/* 
+  .form {
+    max-width: 600px;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .input-wrapper {
+    flex: 0 0 48%;
+  }
+  
+  .input-wrapper label, .input-full label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-wrapper input, .input-full input, .input-full textarea {
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+  
+  .input-full {
+    margin-bottom: 15px;
+  }
+  
+  .input-full input {
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+  }
+  
+  textarea {
+    padding: 8px;
+  }
+  
+  button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .accordian-txt {
+    margin-top: 70px;
+  }
+  
+  .accordian-txt h4 {
+    font-size: 20px;
+    color: #65c0ba;
+  }
+  
+  .accordian-txt h2 {
+    padding: 0;
+    width: 50vh;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  /* @media (max-width: 768px) {
+    .form {
+      max-width: 100%;
+      height: auto;
+      padding: 20px;
+      
+    }
+  
+    .form-group {
+      flex-direction: column;
+    }
+  
+    .input-wrapper {
+      flex: 1 1 100%;
+      margin-bottom: 15px;
+    }
+  
+    .accordian-txt h2 {
+      width: 100%;
+    }
+  } */
+  .accordian-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  .accordian-pic{
+    
+    margin-top: 0;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    flex: 0 0 48%;
+    margin-bottom: 15px;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .accordian-txt {
+    margin-top: 10px;
+    text-align: center;
+    
+    height: auto;
+  }
+  
+  .accordian-txt h4 {
+    font-size: 18px;
+    color: #65c0ba;
+  }
+  
+  .accordian-txt h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .form-group {
+      flex-direction: column;
+    }
+  
+    .form-control {
+      flex: 0 0 100%;
+    }
+  }
+  

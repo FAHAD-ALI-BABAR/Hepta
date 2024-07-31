@@ -1,0 +1,90 @@
+.contactheroes-header{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    min-height: 700px;
+    width: 100%;
+    background-image: url('/tour6.webp');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.contactheroes-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.contactheroes-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.contactheroes-content h2
+{
+    font-size: 80px;
+    
+}
+.contactheroes-content p{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.contactheroes-content button{
+    margin-top: 50px;
+}
+.contactheroes-content button {
+    padding: 16px 30px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+   
+}
+
+.contactheroes-content button:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s all ease;
+}
+
+@media (max-width: 768px) {
+    .contactheroes-content h2 {
+        font-size: 3rem;
+    }
+
+    .contactheroes-content p {
+        font-size: 1rem;
+    }
+
+    .contactheroes-content button {
+        padding: 12px 20px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactheroes-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .contactheroes-content p {
+        font-size: 1.5rem;
+    }
+
+    .contactheroes-content button {
+        padding: 10px 18px;
+        font-size: 0.75rem;
+    }
+}

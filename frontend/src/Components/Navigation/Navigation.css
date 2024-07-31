@@ -1,0 +1,134 @@
+.active {
+    background-color: #1d4ed8;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    width: auto; /* Removed width to allow for flexible content */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: #0f172a;
+    top: 0;
+    padding: 0 1rem; /* Added padding for better spacing */
+    flex-wrap: wrap;
+}
+
+nav .title {
+    font-size: 1.8rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+nav ul li a:hover,
+nav ul li a:not(.active):hover {
+    background-color: #172554;
+    border-radius: 8px;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+nav .menuuu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+    cursor: pointer; /* Added cursor pointer */
+}
+
+nav .menuuu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    border: 1px solid #fff;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    nav .menuuu {
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    nav .menuuu {
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
+    }
+
+    .active {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,236 @@
+/* .tour-management{
+    height: 40vh;
+    width: 100%;
+    position: relative; 
+}
+
+
+.tour-head{
+    
+    width: 40%;
+    margin-left: 60vh;
+    text-align: center;
+}
+.tour-head>h2{
+    font-size: 60px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 800;
+    
+}
+.tour-para{
+    
+    width: 40%;
+    margin-left: 60vh;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.8;
+    color: #6c757d;
+    font-family: "Mukta Mahee", sans-serif;
+    font-size: 18px;
+}
+.carousel{
+    width: 70%;
+    margin-left: 30vh;
+    height: 80vh;
+}
+.rec.rec-arrow{
+    border: none;
+} */
+/* .carousel-div .rec.rec-arrow {
+    background-color: white; 
+    color: #a3a3a3; 
+    border-radius: 50%;
+    border: none; 
+  }
+  
+  .carousel-div .rec.rec-arrow:hover {
+    background-color: white;
+    border: none;
+    color: #a3a3a3; 
+  }
+  
+  .carousel-div .rec.rec-dot {
+    background-color: #d3d3d3; 
+    box-shadow: none; 
+  }
+  
+  .carousel-div .rec.rec-dot_active {
+    background-color: white;
+    border: 1px solid grey; 
+  } */
+  /* .customer-head{
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Abril Fatface", serif;
+  }
+  .customergrid1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .customer-sec{
+    background-color: rgb(246, 246, 246);
+    height: 70vh;
+  }
+  .customer-pic{
+    width: 30%;
+  }
+  .customer-data{
+    width: 87%;
+    line-height: 25px;
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Mukta Mahee",arial, sans-serif;
+    color: #000000;
+  }
+  .customer-name{
+    margin-top: 10px;
+    color: #6c757d;
+    font-size: 18px;
+    font-family: "Mukta Mahee", sans-serif;
+    font-style: italic;
+  }
+  .customer-grid{
+    height: 40vh;
+    width: 20%;
+  }
+  */
+
+  /* Prevent horizontal scrolling */
+
+
+/* General styling */
+.tour-management {
+  height: 30vh;
+  width: 100%;
+  position: relative;
+  margin-top: 00px;
+  overflow: hidden;
+  
+  
+}
+
+.background-clr {
+  height: 43vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 90vh;
+  border-top: 15vh solid transparent;
+  border-right: 208.9vh solid rgb(233, 232, 232);
+}
+
+.tour-head {
+  text-align: center;
+  width: 40%;
+  margin-left: 60vh;
+}
+
+.tour-head > h2 {
+  font-size: 60px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 800;
+}
+
+.tour-para {
+  width: 40%;
+  margin-left: 60vh;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.8;
+  color: #6c757d;
+  font-family: "Mukta Mahee", sans-serif;
+  font-size: 18px;
+}
+
+.carousel {
+  width: 70%;
+  margin-left: 30vh;
+  height: 80vh;
+  
+}
+
+.carousel-div .rec.rec-arrow {
+  background-color: white; /* Change the background color */
+  color: #a3a3a3; /* Change the arrow color */
+  border-radius: 50%;
+  border: none; /* Make arrows circular */
+}
+
+.carousel-div .rec.rec-arrow:hover {
+  background-color: white;
+  border: none;
+  color: #a3a3a3; /* Change the background color on hover */
+}
+
+.carousel-div .rec.rec-dot {
+  background-color: #d3d3d3; /* Change the dot color */
+  box-shadow: none; /* Remove default shadow */
+}
+
+.carousel-div .rec.rec-dot_active {
+  background-color: white;
+  border: 1px solid grey; /* Change the active dot color */
+}
+
+.carousel-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .tour-management {
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    margin-top: 00px;
+    overflow: hidden;
+    
+    
+  }
+  
+  .tour-head, .tour-para {
+      width: 80%;
+      margin-left: 10%;
+  }
+  .carousel {
+      width: 100%;
+      margin-left: 0px;
+      background-color: #65c0ba;
+      
+      
+  }
+}
+
+@media (max-width: 550px) {
+  .tour-management {
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+    overflow: hidden;
+   
+    
+    
+    
+    
+  }
+  
+  .tour-head, .tour-para {
+      width: 90%;
+      margin-left: 5%;
+      
+  }
+  .carousel {
+      width: 100%;
+      margin-left: 0px;
+      height: auto;
+      padding: 0px;
+      
+  }
+}

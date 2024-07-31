@@ -1,0 +1,164 @@
+.news-section {
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.news-images {
+    height: 110vh;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 33vh 33vh;
+    grid-template-rows: 29vh 29vh 29vh;
+    gap: 50px;
+    margin-left: 30px;
+}
+
+.search-secc {
+    height: 100%;
+    width: 30%;
+    overflow:auto;
+}
+
+.news-cards {
+    height: 33vh;
+    width: 35vh;
+    margin-top: 0px;
+    border-radius: 8px;
+    margin-left: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 5px 5px;
+}
+
+img {
+    width: 100%;
+    height: 70%;
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.news-search {
+    width: 20rem;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.location-icon {
+    color: blue;
+    width: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+}
+.search-content{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.content-desc{
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content-pic img {
+    height: 100%;
+    border-radius: 15px;
+}
+
+.content-date {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.content-title {
+    font-size: 17px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news-section {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .news-images {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .news-cards {
+        width: calc(50% - 10px);
+        height: auto;
+        margin-left: 0;
+    }
+    .news-cards p{
+       
+        font-size: 12px;
+        text-align: center;
+    }
+    .news-cards h2{
+        
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .search-secc {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .news-search {
+        width: 80%;
+        margin-top: 20px;
+        padding: 1rem;
+        margin-left: 40px;
+    }
+
+    .search-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin-left: 60px;
+    }
+
+    .content-pic {
+        width: 100%;
+    }
+
+    .content-img {
+        width: 100%;
+    }
+
+    .content-desc {
+        text-align: center;
+    }
+}
